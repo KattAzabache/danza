@@ -1,0 +1,256 @@
+/* PROYECTO */
+body{
+	width: 100%;
+}
+.row{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	margin: 0;
+}
+.titulo{
+	height: 650px;
+	width: 100%;
+	
+}
+.titulo img{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	position: fixed;
+}
+
+.titulo .lov{
+	width: 25%;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+.content1{
+	height: 650px;
+}
+.content1 img{
+	width: 100%;
+}
+.content2{
+	height: 400px;
+	background-color:rgba(255, 255, 255, 0.8);
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.lista{
+	position: relative;
+	width: 45%;
+	left: 50%;
+	top: 5%;
+}
+.texto{
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+	top: 15%;
+}
+p{
+	font-size: 30px;
+	font-family:Verdana;
+	color:black;
+}
+a{
+	padding: 2%;
+	color:white ;
+	font-size: 20px;
+	text-decoration: none;
+}
+a:hover{ 
+	color: red;
+}
+.bord{
+	border-bottom: 2px solid black;
+	width: 20%;
+	position: relative;
+	top: 30%;
+	margin: 0 auto;
+}
+.clas{
+	width: 20%;
+    height: 15%;
+	position: relative;
+	text-align: center;
+	top: 40%;
+	border: 2px solid black;
+	margin: 0 auto;
+}
+.clas span{
+	font-size: 25px;
+	color: black;
+	font-family:Verdana;
+	top: 20%;
+	position: relative;
+}
+.clas:hover{
+	background-color: black;
+}
+.clas span:hover{
+	color: white;
+}
+.content{
+	background-color: rgb(199, 199, 199);
+	height: 440px;
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.content img{
+	width: 100%;
+	height: 100%;
+}
+
+.boton{
+	width: 30%;
+	height: 10%;
+	position: relative;
+	text-align: center;
+	top: -11%;
+	background-color: rgb(177, 174, 174);
+	margin: 0 auto;
+}
+.col-6{
+	padding: 0;
+	border: 1px  solid black;
+	margin: 0;
+}
+.boton span{
+	font-size: 25px;
+	color: black;
+	font-family:Verdana;
+	top: 15%;
+	position: relative;
+}
+.boton:hover{
+	background-color: black;
+}
+.boton span:hover{
+	color: white;
+}
+.content3{
+	height: 440px;
+	background-color: white;
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.content4{
+	height: 300px;
+	background-color:rgba(255, 255, 255, 0.8);
+	position: relative;
+}
+.content4 h2{
+	font-size: 50px;
+	font-family: Verdana;
+	color:black;
+	position: relative;
+	top: 30%;
+} 
+.content4 img{
+	position: absolute;
+}
+.content5{
+	height: 600px;
+	background-color: rgba(2, 2, 2, 0.4);
+	width: 100%;
+	position: relative;
+}
+.mapa{
+	position: relative;
+	top: 5%;
+}
+.content6{
+	width: 100%;
+  	background-image: url(http://www.imagenesdede.com/archivos/temp/337/400_1378767401_danza-moderna.png);
+  	position: relative;
+  	background-size: cover;
+}
+.conta{
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+	font-family: Verdana;
+	color:white;
+	padding: 5%;
+}
+form{
+	width: 40%;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 3% 3%;
+}
+input{
+	width: 100%;
+	padding: 15px;
+	margin: 2px;
+	background-color: rgba(255, 255, 255, 0.73);
+	font-size: 16px;
+}
+textarea{
+	width: 100%;
+	padding: 15px;
+	margin: 2px;
+	background-color: rgba(255, 255, 255, 0.73);
+	font-size: 16px;
+	height: 130px;
+}
+
+button{
+	width: 124px;
+	height: 60px;
+	text-align: center;
+	background-color:rgba(19, 18, 18, 0.85);
+	margin: 13px;
+	color: white;
+	font-size: 20px;
+}
+button:hover{
+	background-color:white;
+	color:black;
+}
+.content7{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	position: relative;
+}
+.content6 img{
+	position: absolute;
+	left: 0;
+	width: 100%;
+} 
+.content5 h1{
+	font-family: verdana;
+	color: white;
+	padding: 4%;
+    position: relative;
+    font-size: 50px;
+    top: 5%;
+}
+.content7 img{
+	position: relative;
+	top: 15%;
+	width: 50px;
+	border-radius: 50%;
+}
+.content7 img:hover{
+	background-color:blue;
+}
+.content7 .imgface:hover{
+	background-color:#1EBAF2;
+}

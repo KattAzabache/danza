@@ -1,0 +1,149 @@
+/* PROYECTO */
+.container{
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	margin-bottom: 0;
+}
+.titulo{
+	height: 80px;
+}
+.content{
+	height: 500px;
+	background-color:rgb(249, 249, 249);
+	margin: 20px;
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	border-top: 2px solid grey;
+	top: 10px;
+}
+.ofert{
+	width: 70%;
+	height: 100px;
+	border-bottom: 2px solid grey;
+	position: relative;
+	top: 10%;
+	left: 15%;
+}
+.ofert span{
+	font-size: 60px;
+	font-family: arial;
+	color: grey;
+}
+
+
+.lista{
+	position: relative;
+	width: 70%;
+	left: 15%;
+	top: -13px;
+}
+
+h1{
+	font-family:Verdana;
+	color:grey;
+}
+
+a{
+	padding: 20px;
+	color: rgb(170, 170, 170);
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.content7{
+	width: 100%;
+	height: 100px;
+	background-color: grey;
+}
+.text{
+	width: 60%;
+	height: 200px;
+	position: relative;
+	top: 140px;
+	left: 20%;
+	padding: 20px;
+}
+.text span{
+	font-size: 25px;
+	font-family: verdana;
+	color: grey;
+}
+.content1{
+	height: 400px;
+	background-color: rgb(224, 224, 224);
+	padding: 20px 100px ;
+}
+.content1-0{
+	width: 260px;
+	margin: 0 auto;
+	padding: 0 8px;
+	position: relative;
+	top: 30px;
+}
+.content1-0 h2{
+	font-size: 30px;
+	color: grey;
+	border-bottom: 1px solid grey;
+	margin: 20px;
+	height: 50px;
+	text-align: center;
+}
+.content1-0 p{
+	font-size: 20px;
+	color: grey;
+	padding: 10px;
+}
+.content5{
+	height: 1200px;
+	background-color:rgb(232, 232, 232);
+	padding: 10px 60px; 
+}
+.instructores{
+	width: 70%;
+	height: 100px;
+	border-bottom: 2px solid grey;
+	position: relative;
+	top: 10%;
+	left: 15%;
+}
+.instructores	h1{
+	font-size: 60px;
+	font-family: arial;
+	color: grey;
+}
+.conteniido{
+	background-color: grey;
+	height: 400px;
+	position: relative;
+	top: 120px;
+	margin: 10px;
+}
+.curso{
+	 width: 100%;
+	 height: 30%;
+	 background-color: white;
+	 position: relative;
+	 top: 70%;
+	 padding: 20px;
+}
+.curso h4,h2{
+	color: grey;
+	text-align: left;
+	padding: 5px;
+}
+.content6{
+	height: 300px;
+}
+.content6 span{
+   position: relative;
+   top: 40%;
+   font-size: 50px;
+   color: grey;
+   font-family: verdana;
+
+}
