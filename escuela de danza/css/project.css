@@ -24,6 +24,7 @@ body{
 	position: absolute;
 	left: 0;
 	position: fixed;
+	top: 60px;
 }
 
 .titulo .lov{
@@ -38,6 +39,11 @@ body{
 .content1 img{
 	width: 100%;
 }
+nav {
+   position: relative;
+   margin: 0;
+   top: 33px;
+}
 .content2{
 	height: 400px;
 	background-color:rgba(255, 255, 255, 0.8);
@@ -46,11 +52,13 @@ body{
 	margin: 0;
 	padding: 0;
 }
-.lista{
-	position: relative;
-	width: 45%;
-	left: 50%;
-	top: 5%;
+.lista {
+       position: fixed;
+       width: 100%;
+       top: 0%;
+       height: 75px;
+       background-color: black;
+       z-index: 1000;
 }
 .texto{
 	position: relative;
