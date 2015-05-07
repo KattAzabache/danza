@@ -5640,22 +5640,38 @@ body {
   margin: 0; }
 
 .titulo {
-  height: 650px;
   width: 100%; }
   .titulo img {
     width: 100%;
     position: absolute;
     left: 0;
     position: fixed;
-    top: 60px;
-    z-index: 100; }
+    top: 40px; }
 
 .titulo .lov {
-  width: 25%;
-  position: fixed;
-  top: 40%;
-  left: 40%; }
+  width: 100%;
+  position: relative;
+  padding: 17% 37%;
+  top: 70px; }
 
+@media screen and (max-width: 1180px) {
+  .titulo .lov {
+    width: 100%;
+    position: relative;
+    padding: 32% 37%;
+    top: -34px; } }
+@media screen and (max-width: 800px) {
+  .titulo .lov {
+    width: 100%;
+    position: relative;
+    padding: 30% 37%;
+    top: -2px; } }
+@media screen and (max-width: 350px) {
+  .titulo .lov {
+    width: 100%;
+    position: relative;
+    padding: 33% 37%;
+    top: 7px; } }
 .content1 {
   height: 650px; }
   .content1 img {
@@ -5760,7 +5776,7 @@ body {
   background-color: rgba(255, 255, 255, 0.8);
   width: 100%;
   position: relative;
-  padding: 10%; }
+  padding: 10% 0; }
 
 .lista {
   position: fixed;
@@ -5771,8 +5787,11 @@ body {
   z-index: 1000;
   left: 0; }
 
+.parraf {
+  padding: 20px; }
+
 .texto {
-  width: 50%;
+  width: 80%;
   margin: 0 auto; }
   .texto p {
     font-size: 25px;
@@ -5796,15 +5815,18 @@ a {
 a:hover {
   color: red; }
 
+.cont2 {
+  padding: 2%; }
+
 .button {
-  width: 20%;
   position: relative;
-  border: 2px solid black;
-  margin: 0 auto;
-  padding: 2% 0; }
+  margin-top: 6%; }
   .button span {
     font-size: 19px;
-    color: black; }
+    color: black;
+    padding: 2%;
+    border-radius: 10px;
+    border: 1px solid black; }
 
 .clas:hover {
   background-color: black; }
