@@ -3,24 +3,33 @@
 		<head>
 			<meta charset="utf-8">
 			<title>GRID SYSTEM</title>
-		    <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
-		    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		    <meta name="viewport" content="width=[Pixeles del mínimo ancho para visualizar bien la web]" />
-	        <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+             <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+             <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+             <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+             <link rel="stylesheet" type="text/css" href="fonts">
+             <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+             <script src="http://code.jquery.com/jquery-latest.js"></script>
+             <link href='http://fonts.googleapis.com/css?family=Merienda&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+             <link href='http://fonts.googleapis.com/css?family=Niconne&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+       
 		</head>
 		<body>
 			<div class="container">
 				<div class="titulo">
-					<img src="img/fond.jpg">
-					<div class="lista">
-						<nav>
-							<a href="#">Nosotros</a>|
-							<a href="#">Clases</a> |
-							<a href="#">Blog</a>|
-							<a href="#contac">Contáctanos</a>
-						</nav>
+				  <img src="img/fond.jpg">
+					<div class="menu-collapsed lista">
+                        <div class="bar"></div>
+                          <nav>
+                            <ul>
+                                <li><a href="#">Nosotros</a></li>
+                                <li><a href="#">Clases</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#contac">Contáctanos</a></li> 
+                            </ul>
+                          </nav>  
+                        </div> 
+					 <img class="lov" src="img/lov.png">                                                  
 					</div>
-					<img class="lov" src="img/lov.png">
 				</div>
 				
 				<div class="container content2">
@@ -67,7 +76,7 @@
 		                  		<input type="E-mail" name="E-mail" placeholder="E-mail">
 		                  		<input type="text" name="Teléfono" placeholder="Teléfono">
 		                  		<textarea  name="Coments" placeholder="Mensaje"></textarea>
-					            <button name="send" placeholder="submit">ENVIAR </button>
+					            <button class="submit" name="send" placeholder="submit">ENVIAR </button>
 		                  </form>
 				</div>
 				<div class="content7">
@@ -75,8 +84,13 @@
 					<a href="https://twitter.com/"><img class="imgface" src="img/twitter.png"></a>
 				</div>
 			</div>
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+         <script src="mi-script.js"></script> 
+		 <script src="http://code.jquery.com/jquery-latest.js"></script>
+      	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+                  <!-- Javascripts de Bootstrap -->
+         <script src="javascript/b3/collapse.js"></script>
+         <script src="javascript/b3/transition.js"></script>
 	</body>
 </html>	
 

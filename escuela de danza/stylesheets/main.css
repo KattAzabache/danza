@@ -3,6 +3,7 @@
 =          Twitter Bootstrap 3.2      =
 ========================================*/
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5646,7 +5647,8 @@ body {
     position: absolute;
     left: 0;
     position: fixed;
-    top: 60px; }
+    top: 60px;
+    z-index: 100; }
 
 .titulo .lov {
   width: 25%;
@@ -5659,10 +5661,100 @@ body {
   .content1 img {
     width: 100%; }
 
-nav {
-  position: relative;
-  margin: 0;
-  top: 33px; }
+/*nav*/
+html {
+  height: 100%; }
+
+body {
+  height: 100%; }
+
+.menu-collapsed {
+  transition: all .25s;
+  position: fixed;
+  top: 10px;
+  left: 9px;
+  height: 36px;
+  width: 36px;
+  z-index: 1;
+  cursor: pointer; }
+  .menu-collapsed ul {
+    transition: all -3.95s;
+    position: fixed;
+    left: -9000px; }
+
+.bar {
+  position: fixed;
+  left: 12px;
+  top: 24px;
+  height: 6px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.75); }
+  .bar:before {
+    transition: all .25s;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -8px;
+    height: 6px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.75); }
+  .bar:after {
+    transition: all .25s;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    height: 6px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.75); }
+
+.menu-expanded {
+  transition: all .25s;
+  text-align: center;
+  line-height: 200px;
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85); }
+  .menu-expanded ul {
+    transition: all .05s;
+    position: relative;
+    left: 0;
+    z-index: 2; }
+  .menu-expanded li {
+    height: 166px; }
+  .menu-expanded nav {
+    background-color: rgba(9, 8, 8, 0.87); }
+  .menu-expanded a {
+    transition: all .15s;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px;
+    font-weight: bold; }
+    .menu-expanded a:hover {
+      transition: all .15s;
+      letter-spacing: 3px;
+      border: 1px solid rgba(255, 255, 255, 0.15); }
+  .menu-expanded .bar {
+    background-color: transparent;
+    transition: all .25s; }
+    .menu-expanded .bar:before {
+      transition: all .25s;
+      content: "";
+      transform: rotate(45deg);
+      top: -0px; }
+    .menu-expanded .bar:after {
+      transition: all .25s;
+      content: "";
+      transform: rotate(-45deg);
+      top: 0px; }
 
 .content2 {
   background-color: rgba(255, 255, 255, 0.8);
@@ -5674,9 +5766,10 @@ nav {
   position: fixed;
   width: 100%;
   top: 0%;
-  height: 75px;
-  background-color: black;
-  z-index: 1000; }
+  height: 54px;
+  background-color: #cc4848;
+  z-index: 1000;
+  left: 0; }
 
 .texto {
   width: 50%;
@@ -5822,7 +5915,7 @@ textarea {
   font-size: 16px;
   height: 130px; }
 
-button {
+.submit {
   width: 124px;
   height: 60px;
   text-align: center;
