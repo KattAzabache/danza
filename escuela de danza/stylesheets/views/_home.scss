@@ -314,6 +314,9 @@ a:hover{
 .mapa{
 	position: relative;
 	top: 5%;
+  iframe{
+    width: 100%;
+  }
 }
 .content6{
 	width: 100%;
@@ -381,7 +384,7 @@ button:hover{
 	color: white;
 	padding: 4%;
     position: relative;
-    font-size: 50px;
+    font-size: 30px;
     top: 5%;
 }
 .content7 img{
