@@ -5794,10 +5794,11 @@ body {
   width: 80%;
   margin: 0 auto; }
   .texto p {
-    font-size: 25px;
+    font-size: 26px;
     color: black;
     margin: 0;
-    font-family: 'Dancing Script', cursive; }
+    font-family: 'Dancing Script', cursive;
+    color: #cc4848; }
 
 hr {
   border-top: 1px solid black;
@@ -5805,7 +5806,8 @@ hr {
 
 @media screen and (max-width: 975px) {
   .texto p {
-    font-size: 18px; } }
+    font-size: 25px;
+    color: #cc4848; } }
 a {
   padding: 2%;
   color: white;
@@ -5828,7 +5830,12 @@ a:hover {
     padding: 2%;
     border-radius: 10px;
     border: 1px solid black;
-    font-family: 'Dancing Script', cursive; }
+    font-family: 'Dancing Script', cursive;
+    color: #cc4848; }
+
+.button span:hover {
+  color: white;
+  background-color: black; }
 
 .clas:hover {
   background-color: black; }
@@ -5890,12 +5897,15 @@ a:hover {
     font-family: 'Dancing Script', cursive;
     color: #cc4848;
     text-align: center;
-    padding: 8% 9%;
+    padding: 8% 7%;
     margin: 0;
     background-color: rgba(255, 255, 255, 0.8); }
   .content4 img {
     position: absolute; }
 
+@media screen and (max-width: 975px) {
+  .content4 h2 {
+    font-size: 30px; } }
 .content5 {
   background-color: rgba(12, 11, 11, 0.52);
   width: 100%;
