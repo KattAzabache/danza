@@ -5905,17 +5905,17 @@ a:hover {
 
 .content5 h1 {
   font-family: 'Dancing Script', cursive;
-  color: white;
-  padding: 4% 4%;
+  color: #f84e4e;
+  padding: 8% 5%;
   position: relative;
-  font-size: 30px;
+  font-size: 45px;
   top: 5%;
   margin: 0; }
 
 .mapa {
   position: relative;
   top: 5%;
-  width: 50%;
+  width: 85%;
   margin: 0 auto; }
   .mapa iframe {
     width: 100%;
@@ -5927,16 +5927,19 @@ a:hover {
   position: relative;
   background-size: cover; }
 
-.conta {
+.conta h3 {
   position: relative;
   text-align: center;
-  font-size: 40px;
   font-family: 'Dancing Script', cursive;
-  color: white;
-  padding: 5%; }
+  color: #f84e4e;
+  padding: 8% 5%;
+  position: relative;
+  font-size: 45px;
+  margin: 0; }
 
 form {
   width: 40%;
+  text-align: center;
   margin: 0 auto;
   position: relative;
   padding: 0 3% 3%;
@@ -5948,7 +5951,8 @@ input {
   margin: 2px;
   background-color: rgba(255, 255, 255, 0.73);
   font-size: 16px;
-  font-family: 'Dancing Script', cursive; }
+  font-family: 'Dancing Script', cursive;
+  color: black; }
 
 textarea {
   width: 100%;
@@ -5957,8 +5961,25 @@ textarea {
   background-color: rgba(255, 255, 255, 0.73);
   font-size: 16px;
   height: 130px;
-  font-family: 'Dancing Script', cursive; }
+  font-family: 'Dancing Script', cursive;
+  color: black; }
 
+@media screen and (max-width: 600px) {
+  form {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 3% 3%;
+    font-family: 'Dancing Script', cursive; } }
+@media screen and (max-width: 400px) {
+  form {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 3% 3%;
+    font-family: 'Dancing Script', cursive; } }
 .submit {
   width: 124px;
   height: 60px;
