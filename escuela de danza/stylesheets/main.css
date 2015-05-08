@@ -5670,7 +5670,7 @@ body {
   .titulo .lov {
     width: 100%;
     position: relative;
-    padding: 33% 37%;
+    padding: 35% 37%;
     top: 7px; } }
 .content1 {
   height: 650px; }
@@ -5743,7 +5743,7 @@ body {
     left: 0;
     z-index: 2; }
   .menu-expanded li {
-    height: 166px; }
+    height: 170px; }
   .menu-expanded nav {
     background-color: rgba(9, 8, 8, 0.87); }
   .menu-expanded a {
@@ -5751,9 +5751,11 @@ body {
     text-decoration: none;
     color: white;
     font-size: 2em;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Merienda;
     padding: 5px;
-    font-weight: bold; }
+    font-weight: bold;
+    top: -36px;
+    position: relative; }
     .menu-expanded a:hover {
       transition: all .15s;
       letter-spacing: 3px;
@@ -5795,9 +5797,9 @@ body {
   margin: 0 auto; }
   .texto p {
     font-size: 25px;
-    font-family: Verdana;
     color: black;
-    margin: 0; }
+    margin: 0;
+    font-family: Merienda; }
 
 hr {
   border-top: 1px solid black;
@@ -5810,7 +5812,8 @@ a {
   padding: 2%;
   color: white;
   font-size: 20px;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: Merienda; }
 
 a:hover {
   color: red; }
@@ -5826,7 +5829,8 @@ a:hover {
     color: black;
     padding: 2%;
     border-radius: 10px;
-    border: 1px solid black; }
+    border: 1px solid black;
+    font-family: Merienda; }
 
 .clas:hover {
   background-color: black; }
@@ -5835,30 +5839,27 @@ a:hover {
   color: white; }
 
 .content {
-  background-color: #c7c7c7;
-  height: 440px;
   width: 100%;
   position: relative;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  height: 340px; }
   .content img {
     width: 100%;
     height: 100%; }
 
 .boton {
-  width: 30%;
-  height: 10%;
   position: relative;
-  text-align: center;
-  top: -11%;
-  background-color: #b1aeae;
-  margin: 0 auto; }
+  top: -60px;
+  margin: 0 auto;
+  text-align: center; }
   .boton span {
     font-size: 25px;
     color: black;
-    font-family: Verdana;
-    top: 15%;
-    position: relative; }
+    font-family: Merienda;
+    background: #bebebe;
+    border: 1px solid #b9afaf;
+    padding: 13px; }
 
 .col-6 {
   padding: 0;
@@ -5872,12 +5873,8 @@ a:hover {
   color: white; }
 
 .content3 {
-  height: 440px;
-  background-color: white;
   width: 100%;
-  position: relative;
-  margin: 0;
-  padding: 0; }
+  position: relative; }
 
 .content4 {
   height: 300px;
@@ -5885,24 +5882,39 @@ a:hover {
   position: relative; }
   .content4 h2 {
     font-size: 50px;
-    font-family: Verdana;
+    font-family: Merienda;
     color: black;
     position: relative;
-    top: 30%; }
+    top: 30%;
+    margin: 0;
+    text-align: center; }
   .content4 img {
     position: absolute; }
 
 .content5 {
-  height: 600px;
-  background-color: rgba(2, 2, 2, 0.4);
+  background-color: rgba(12, 11, 11, 0.52);
   width: 100%;
-  position: relative; }
+  position: relative;
+  text-align: center;
+  padding: 10% 5%; }
+
+.content5 h1 {
+  font-family: Merienda;
+  color: white;
+  padding: 4% 4%;
+  position: relative;
+  font-size: 30px;
+  top: 5%;
+  margin: 0; }
 
 .mapa {
   position: relative;
-  top: 5%; }
+  top: 5%;
+  width: 50%;
+  margin: 0 auto; }
   .mapa iframe {
-    width: 100%; }
+    width: 100%;
+    height: 280px; }
 
 .content6 {
   width: 100%;
@@ -5914,7 +5926,7 @@ a:hover {
   position: relative;
   text-align: center;
   font-size: 40px;
-  font-family: Verdana;
+  font-family: Merienda;
   color: white;
   padding: 5%; }
 
@@ -5922,14 +5934,16 @@ form {
   width: 40%;
   margin: 0 auto;
   position: relative;
-  padding: 0 3% 3%; }
+  padding: 0 3% 3%;
+  font-family: Merienda; }
 
 input {
   width: 100%;
   padding: 15px;
   margin: 2px;
   background-color: rgba(255, 255, 255, 0.73);
-  font-size: 16px; }
+  font-size: 16px;
+  font-family: Merienda; }
 
 textarea {
   width: 100%;
@@ -5937,7 +5951,8 @@ textarea {
   margin: 2px;
   background-color: rgba(255, 255, 255, 0.73);
   font-size: 16px;
-  height: 130px; }
+  height: 130px;
+  font-family: Merienda; }
 
 .submit {
   width: 124px;
@@ -5962,14 +5977,6 @@ button:hover {
   position: absolute;
   left: 0;
   width: 100%; }
-
-.content5 h1 {
-  font-family: verdana;
-  color: white;
-  padding: 4%;
-  position: relative;
-  font-size: 30px;
-  top: 5%; }
 
 .content7 img {
   position: relative;
