@@ -3,7 +3,6 @@
 =          Twitter Bootstrap 3.2      =
 ========================================*/
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-@import url(http://fonts.googleapis.com/css?family=Quicksand);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5677,7 +5676,6 @@ body {
   .content1 img {
     width: 100%; }
 
-/*nav*/
 html {
   height: 100%; }
 
@@ -5751,7 +5749,7 @@ body {
     text-decoration: none;
     color: white;
     font-size: 2em;
-    font-family: Merienda;
+    font-family: 'Dancing Script', cursive;
     padding: 5px;
     font-weight: bold;
     top: -36px;
@@ -5799,7 +5797,7 @@ body {
     font-size: 25px;
     color: black;
     margin: 0;
-    font-family: Merienda; }
+    font-family: 'Dancing Script', cursive; }
 
 hr {
   border-top: 1px solid black;
@@ -5813,7 +5811,7 @@ a {
   color: white;
   font-size: 20px;
   text-decoration: none;
-  font-family: Merienda; }
+  font-family: 'Dancing Script', cursive; }
 
 a:hover {
   color: red; }
@@ -5830,7 +5828,7 @@ a:hover {
     padding: 2%;
     border-radius: 10px;
     border: 1px solid black;
-    font-family: Merienda; }
+    font-family: 'Dancing Script', cursive; }
 
 .clas:hover {
   background-color: black; }
@@ -5848,6 +5846,13 @@ a:hover {
     width: 100%;
     height: 100%; }
 
+@media screen and (max-width: 600px) {
+  .content {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%; } }
 .boton {
   position: relative;
   top: -60px;
@@ -5856,7 +5861,7 @@ a:hover {
   .boton span {
     font-size: 25px;
     color: black;
-    font-family: Merienda;
+    font-family: 'Dancing Script', cursive;
     background: #bebebe;
     border: 1px solid #b9afaf;
     padding: 13px; }
@@ -5877,17 +5882,17 @@ a:hover {
   position: relative; }
 
 .content4 {
-  height: 300px;
-  background-color: rgba(255, 255, 255, 0.8);
+  /*	height: 300px;
+  	background-color:rgba(255, 255, 255, 0.8);*/
   position: relative; }
   .content4 h2 {
     font-size: 50px;
-    font-family: Merienda;
-    color: black;
-    position: relative;
-    top: 30%;
+    font-family: 'Dancing Script', cursive;
+    color: #cc4848;
+    text-align: center;
+    padding: 8% 9%;
     margin: 0;
-    text-align: center; }
+    background-color: rgba(255, 255, 255, 0.8); }
   .content4 img {
     position: absolute; }
 
@@ -5899,7 +5904,7 @@ a:hover {
   padding: 10% 5%; }
 
 .content5 h1 {
-  font-family: Merienda;
+  font-family: 'Dancing Script', cursive;
   color: white;
   padding: 4% 4%;
   position: relative;
@@ -5926,7 +5931,7 @@ a:hover {
   position: relative;
   text-align: center;
   font-size: 40px;
-  font-family: Merienda;
+  font-family: 'Dancing Script', cursive;
   color: white;
   padding: 5%; }
 
@@ -5935,7 +5940,7 @@ form {
   margin: 0 auto;
   position: relative;
   padding: 0 3% 3%;
-  font-family: Merienda; }
+  font-family: 'Dancing Script', cursive; }
 
 input {
   width: 100%;
@@ -5943,7 +5948,7 @@ input {
   margin: 2px;
   background-color: rgba(255, 255, 255, 0.73);
   font-size: 16px;
-  font-family: Merienda; }
+  font-family: 'Dancing Script', cursive; }
 
 textarea {
   width: 100%;
@@ -5952,7 +5957,7 @@ textarea {
   background-color: rgba(255, 255, 255, 0.73);
   font-size: 16px;
   height: 130px;
-  font-family: Merienda; }
+  font-family: 'Dancing Script', cursive; }
 
 .submit {
   width: 124px;
