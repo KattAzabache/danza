@@ -5761,10 +5761,10 @@ body {
 .ofert {
   width: 100%;
   position: relative;
-  padding: 9% 5%; }
+  padding: 7% 5%; }
 
 .ofert span {
-  font-size: 70px;
+  font-size: 89px;
   font-family: 'Dancing Script', cursive;
   color: #b60909;
   padding: 1%;
@@ -5809,6 +5809,63 @@ a:hover {
   position: relative;
   margin: 0 auto; }
 
+@media screen and (max-width: 620px) {
+  .ofert {
+    width: 100%;
+    position: relative;
+    padding: 14% 5%; }
+    .ofert span {
+      font-size: 55px;
+      font-family: 'Dancing Script', cursive;
+      color: #b60909;
+      padding: 1%;
+      border-bottom: 4px solid black; } }
+@media screen and (max-width: 430px) {
+  .ofert {
+    width: 100%;
+    position: relative;
+    padding: 16% 5%; }
+    .ofert span {
+      font-size: 45px;
+      font-family: 'Dancing Script', cursive;
+      color: #b60909;
+      padding: 1%;
+      border-bottom: 4px solid black; }
+
+  .content1 {
+    width: 262px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto; }
+    .content1 .curso {
+      width: 100%;
+      background-color: rgba(250, 244, 244, 0.86);
+      position: relative;
+      top: 58%;
+      padding: 10px; } }
+@media screen and (max-width: 340px) {
+  .ofert {
+    width: 100%;
+    position: relative;
+    padding: 19% 5%; }
+    .ofert span {
+      font-size: 38px;
+      font-family: 'Dancing Script', cursive;
+      color: #b60909;
+      padding: 1%;
+      border-bottom: 4px solid black; }
+
+  .content1 {
+    width: 228px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto; }
+    .content1 .curso {
+      width: 100%;
+      background-color: rgba(250, 244, 244, 0.86);
+      position: relative;
+      top: 51%;
+      padding: 10px; } }
 .columnas {
   width: 100%;
   background-color: rgba(199, 199, 199, 0.71);
