@@ -5773,12 +5773,6 @@ body {
       transform: rotate(-45deg);
       top: 0px; }
 
-.content2 {
-  background-color: rgba(255, 255, 255, 0.8);
-  width: 100%;
-  position: relative;
-  padding: 10% 0; }
-
 .lista {
   position: fixed;
   width: 100%;
@@ -5787,6 +5781,12 @@ body {
   background-color: #cc4848;
   z-index: 1000;
   left: 0; }
+
+.content2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  position: relative;
+  padding: 10% 0; }
 
 .parraf {
   padding: 20px; }
@@ -6019,7 +6019,7 @@ button:hover {
   top: 30%;
   width: 40px;
   border-radius: 50%;
-  background-color: red;
+  background-color: #c52222;
   margin: 11px; }
 
 .content7 img:hover {
