@@ -5741,106 +5741,193 @@ body {
   z-index: 1000;
   left: 0; }
 
-/*contenidos*/
+/*seccion 2*/
 .content {
-  background-color: rgba(224, 18, 18, 0.38);
+  background-color: rgba(199, 199, 199, 0.53);
   margin: 20px;
   width: 100%;
+  position: relative;
   margin: 0;
-  padding: 3% 0; }
-  .content .ofert {
-    position: relative;
-    width: 100%;
-    padding: 10% 0 6%;
-    z-index: 15;
-    background-color: rgba(180, 180, 180, 0.4); }
-    .content .ofert span {
-      font-size: 60px;
-      font-family: arial;
-      color: grey;
-      padding: 2%;
-      border-bottom: 1px solid grey; }
-  .content .text {
-    width: 100%;
-    position: relative;
-    text-align: center;
-    padding: 7% 25%;
-    z-index: 15;
-    background-color: rgba(180, 180, 180, 0.4); }
-    .content .text span {
-      font-size: 25px;
-      font-family: verdana;
-      color: grey; }
+  padding: 0;
+  text-align: center;
+  border-top: 2px solid grey; }
+
+.texto {
+  background-color: rgba(199, 199, 199, 0.53);
+  width: 100%;
+  position: relative;
+  padding: 10% 0; }
+  .texto .col-md-12 {
+    padding: 2%; }
+    .texto .col-md-12 .parrafo {
+      width: 80%;
+      margin: 0 auto; }
+      .texto .col-md-12 .parrafo p {
+        font-size: 26px;
+        color: black;
+        margin: 0;
+        font-family: 'Dancing Script', cursive;
+        color: #cc4848; }
 
 .content img {
-  position: fixed;
   width: 100%;
-  left: 0; }
+  position: fixed;
+  left: 0;
+  top: 40px; }
 
 h1 {
-  font-family: Verdana;
+  font-family: 'Dancing Script', cursive;
   color: grey; }
 
 a {
-  padding: 20px;
-  color: #aaaaaa;
+  padding: 5px  30px;
+  color: white;
   font-size: 20px;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive; }
 
-.content7 {
+a:hover {
+  color: red; }
+
+.cuadro {
+  height: 350px;
+  background-color: #575659; }
+
+.ofert {
   width: 100%;
-  height: 100px;
-  background-color: rgba(252, 251, 251, 0.38); }
-
-.content1 {
-  height: 400px;
-  background-color: rgba(252, 251, 251, 0.38);
-  padding: 20px 100px; }
-
-.content1-0 {
-  width: 260px;
-  margin: 0 auto;
-  padding: 0 8px;
   position: relative;
-  top: 30px; }
+  padding: 7% 5%; }
 
-.content1-0 h2 {
-  font-size: 30px;
-  color: grey;
-  border-bottom: 1px solid grey;
-  margin: 20px;
-  height: 50px;
-  text-align: center; }
+.ofert span {
+  font-size: 89px;
+  font-family: 'Dancing Script', cursive;
+  color: #b60909;
+  padding: 1%;
+  border-bottom: 4px solid black; }
 
-.content1-0 p {
-  font-size: 20px;
-  color: grey;
-  padding: 10px; }
+@media screen and (max-width: 620px) {
+  .ofert {
+    width: 100%;
+    position: relative;
+    padding: 14% 5%; }
+    .ofert span {
+      font-size: 55px;
+      font-family: 'Dancing Script', cursive;
+      color: #b60909;
+      padding: 1%;
+      border-bottom: 4px solid black; } }
+@media screen and (max-width: 430px) {
+  .ofert {
+    width: 100%;
+    position: relative;
+    padding: 16% 5%; }
+    .ofert span {
+      font-size: 45px;
+      font-family: 'Dancing Script', cursive;
+      color: #b60909;
+      padding: 1%;
+      border-bottom: 4px solid black; } }
+@media screen and (max-width: 340px) {
+  .ofert {
+    width: 100%;
+    position: relative;
+    padding: 19% 5%; }
+    .ofert span {
+      font-size: 38px;
+      font-family: 'Dancing Script', cursive;
+      color: #b60909;
+      padding: 1%;
+      border-bottom: 4px solid black; } }
+.content1 {
+  background-color: whitesmoke;
+  position: relative;
+  padding: 5%; }
+  .content1 .content1-0 {
+    padding: 0 6%;
+    position: relative; }
+    .content1 .content1-0 h2 {
+      font-size: 30px;
+      color: black;
+      border-bottom: 1px solid #cc4848;
+      margin: 20px;
+      height: 50px;
+      text-align: center;
+      font-family: 'Dancing Script', cursive; }
+    .content1 .content1-0 p {
+      font-size: 20px;
+      color: #615b5b;
+      padding: 3%;
+      text-align: justify;
+      font-family: 'Dancing Script', cursive; }
+
+.movimiento {
+  width: 100%;
+  height: 100%;
+  z-index: 25;
+  position: relative; }
+  .movimiento img {
+    position: relative;
+    width: 100%; }
 
 .content5 {
-  height: 1200px;
-  background-color: rgba(252, 251, 251, 0.38);
-  padding: 10px 60px; }
+  background-color: #d6d5d5;
+  padding: 5%;
+  position: relative; }
+  .content5 .instructores {
+    width: 100%;
+    position: relative; }
+    .content5 .instructores span {
+      font-size: 65px;
+      font-family: 'Dancing Script', cursive;
+      color: #b60909;
+      padding: 1%;
+      border-bottom: 2px solid black; }
+  .content5 .row {
+    padding: 5%; }
+    .content5 .row .conteniido {
+      background-color: grey;
+      height: 250px;
+      position: relative;
+      /*          padding: 5%;*/
+      margin: 0; }
+      .content5 .row .conteniido img {
+        width: 100%;
+        height: 100%; }
+    .content5 .row .curso {
+      width: 100%;
+      background-color: white;
+      position: relative;
+      padding: 5%;
+      border: 1px solid #b60909; }
 
-.instructores {
-  width: 70%;
-  height: 100px;
-  border-bottom: 2px solid grey;
-  position: relative;
-  top: 10%;
-  left: 15%; }
+.fifth-effect img {
+  opacity: 0.2;
+  transition: all 0.3s ease-in; }
 
-.instructores h1 {
-  font-size: 60px;
-  font-family: arial;
-  color: grey; }
+.fifth-effect .mask {
+  cursor: pointer;
+  opacity: 1;
+  visibility: visible;
+  border: 130px solid rgba(34, 33, 33, 0.41);
+  box-sizing: border-box;
+  transition: all 0.4s cubic-bezier(0.94, 0.85, 0.1, 0.62);
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
-.conteniido {
-  background-color: grey;
-  height: 400px;
-  position: relative;
-  top: 120px;
-  margin: 10px; }
+.fifth-effect:hover .mask {
+  border: 0px double rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  visibility: hidden; }
+
+.fifth-effect:hover img {
+  opacity: 1; }
+
+.todo {
+  padding: 15px; }
 
 .curso {
   width: 100%;
@@ -5850,19 +5937,61 @@ a {
   top: 70%;
   padding: 20px; }
 
-.curso h4, h2 {
-  color: grey;
-  text-align: left;
-  padding: 5px; }
+.curso h4 {
+  color: #615b5b;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  font-family: 'Dancing Script', cursive; }
+
+.curso h3 {
+  color: black;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  font-family: 'Dancing Script', cursive; }
 
 .content6 {
-  height: 300px; }
+  padding: 5%;
+  background-color: rgba(194, 193, 193, 0.94);
+  position: relative; }
 
 .content6 span {
   position: relative;
   top: 40%;
   font-size: 50px;
   color: grey;
-  font-family: verdana; }
+  font-family: 'Dancing Script', cursive;
+  color: #b60909; }
+
+.content7 {
+  width: 100%;
+  height: 91px;
+  background-color: black;
+  position: relative; }
+
+.content7 img {
+  position: relative;
+  top: 30%;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #c52222;
+  margin: 11px; }
+
+.content7 img:hover {
+  background-color: blue; }
+
+.content7 .imgface:hover {
+  background-color: #1EBAF2; }
+
+.content7 p {
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  color: #777272; }
+
+.redes {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
